@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=l0Publ+XP2bfO0Y3E2esNM7p1Moih8Ix9sgzxrZ7+sIe10fmvNsBH2MLTFxceAagTfCt1Q+mtQl2nz220J8kXvBNVa88OKc2dIoXOViMCl92vefXQKKyoIZTcwCH9gFlA1dBl+ZXaWxmLbGCITsmV0cnb9CAXVs7HbLaYTokOxs=-->
+<Package Id="Office32WW" Type="MSI" Path="Office32WW.MSI" Version="1.0" ProductCode="{90140000-0043-0000-1000-0000000FF1CE}" MSIVersion="14.0.4763.1000" Platform="x64" LocalizationTransform="ShellUI">
+	<Feature Id="MsoInstalledPackagesScoped" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="AccessPiaReg32" Cost="0">
+		<OptionRef Id="AccessPiaReg32"/>
+	</Feature>
+	<Feature Id="WordPreviewReg32" Cost="0">
+		<OptionRef Id="WordPreviewReg32"/>
+	</Feature>
+	<Feature Id="Publisher32" Cost="0">
+		<OptionRef Id="Publisher32"/>
+	</Feature>
+	<Feature Id="ExcelPiaReg32" Cost="0">
+		<OptionRef Id="ExcelPiaReg32"/>
+	</Feature>
+	<Feature Id="WAC_PIARegSPD32" Cost="0">
+		<OptionRef Id="WAC_PIARegSPD32"/>
+	</Feature>
+	<Feature Id="SmartTagPiaReg32" Cost="0">
+		<OptionRef Id="SmartTagPiaReg32"/>
+	</Feature>
+	<Feature Id="FormsPiaReg32" Cost="0">
+		<OptionRef Id="FormsPiaReg32"/>
+	</Feature>
+	<Feature Id="IMNFiles32" Cost="101608">
+		<OptionRef Id="SHAREDFiles"/>
+	</Feature>
+	<Feature Id="TCDRegistration32" Cost="0">
+		<OptionRef Id="TCDRegistration"/>
+	</Feature>
+	<Feature Id="Visio32" Cost="0">
+		<OptionRef Id="Visio32"/>
+	</Feature>
+	<Feature Id="VBEPiaReg32" Cost="0">
+		<OptionRef Id="VSCommonPIAHidden"/>
+	</Feature>
+	<Feature Id="ExcelPreviewReg32" Cost="0">
+		<OptionRef Id="ExcelPreviewReg32"/>
+	</Feature>
+	<Feature Id="OfficePiaReg32" Cost="0">
+		<OptionRef Id="dummy_Office_PIA"/>
+	</Feature>
+	<Feature Id="Project32Files" Cost="135552">
+		<OptionRef Id="Project32Files"/>
+	</Feature>
+	<Feature Id="AlwaysInstalled32" Cost="195936">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="WebDiscussFiles" Cost="323184">
+		<OptionRef Id="WebDiscussFiles"/>
+	</Feature>
+	<Feature Id="Access32" Cost="0">
+		<OptionRef Id="Access32"/>
+	</Feature>
+	<Feature Id="pptSLfiles32" Cost="389008">
+		<OptionRef Id="SHAREDFiles"/>
+	</Feature>
+	<Feature Id="SetupControllerFiles" Cost="234">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="WordPiaReg32" Cost="0">
+		<OptionRef Id="WordPiaReg32"/>
+	</Feature>
+	<Feature Id="PowerPointPiaReg32" Cost="0">
+		<OptionRef Id="PowerPointPiaReg32"/>
+	</Feature>
+	<Feature Id="XDOCSFiles32" Cost="403832">
+		<OptionRef Id="XDOCSFiles32"/>
+	</Feature>
+	<Feature Id="Gimme_OnDemandData" Cost="0">
+		<OptionRef Id="Gimme_OnDemandData"/>
+	</Feature>
+	<Feature Id="GrooveShellIntegration32" Cost="4222864">
+		<OptionRef Id="GrooveShellIntegration32"/>
+	</Feature>
+	<Feature Id="ProductNonBootFiles32" Cost="3515516">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="PowerPointPreviewReg32" Cost="0">
+		<OptionRef Id="PowerPointPreviewReg32"/>
+	</Feature>
+	<Feature Id="ProductFiles32" Cost="132152912">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="Outlook32Files" Cost="254848">
+		<OptionRef Id="Outlook32Files"/>
+	</Feature>
+	<Feature Id="SetupXmlFiles" Cost="234">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="OneNote32Files" Cost="1203904">
+		<OptionRef Id="OneNote32Files"/>
+	</Feature>
+	<Feature Id="OneNotePIAReg32" Cost="0">
+		<OptionRef Id="OneNotePiaReg32"/>
+	</Feature>
+	<Feature Id="VisioPreviewReg32" Cost="0">
+		<OptionRef Id="VisioPreviewReg32"/>
+	</Feature>
+	<Feature Id="XDocsPiaReg32" Cost="0">
+		<OptionRef Id="XDocsPiaReg32"/>
+	</Feature>
+	<Feature Id="AcePiaReg32" Cost="0">
+		<OptionRef Id="AcePiaReg32"/>
+	</Feature>
+	<Feature Id="ProjectPiaReg32" Cost="0">
+		<OptionRef Id="ProjectPiaReg32"/>
+	</Feature>
+	<Feature Id="VisioPiaReg32" Cost="0">
+		<OptionRef Id="VisioPiaReg32"/>
+	</Feature>
+	<Feature Id="PublisherPiaReg32" Cost="0">
+		<OptionRef Id="PublisherPiaReg32"/>
+	</Feature>
+	<Feature Id="OutlookPiaReg32" Cost="0">
+		<OptionRef Id="OutlookPiaReg32"/>
+	</Feature>
+	<Feature Id="OneNoteMobileSyncDesktop" Cost="2286872">
+		<OptionRef Id="OneNoteMobileSyncDesktop"/>
+	</Feature>
+	<Feature Id="GraphPiaReg32" Cost="0">
+		<OptionRef Id="GraphPiaReg32"/>
+	</Feature>
+</Package>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=RZzdxeCklm82UQIAGWxVmDg948c9IciykqBkm//6MQKfnOPAcaxps93tc2siCXGPFYVg54fHTEMdpHfTPuYRgEilfYN3GuFs5srqXg4rsDxkm6rWEzBaOf3qglEZYBCUgDpqym7VmcYSAlv60G+WR0pHNe/OGQk185iQjINmhXg=-->
+<Setup Id="Office.en-us" Type="AddOn" Keyword="OfficeMUI" Culture="en-us">
+	<Option Id="AlwaysInstalled" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="Gimme_OnDemandData" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="ProductFiles" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no">
+		<Option Id="AceFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+			<OptionDependency Lead="ACCESSFiles"/>
+			<OptionDependency Lead="EXCELFiles"/>
+			<OptionDependency Lead="GrooveFiles"/>
+			<OptionDependency Lead="OUTLOOKFiles"/>
+			<OptionDependency Lead="PPTFiles"/>
+			<OptionDependency Lead="PROJECTFiles"/>
+			<OptionDependency Lead="PubPrimary"/>
+			<OptionDependency Lead="QueryFiles"/>
+			<OptionDependency Lead="VISIOFiles"/>
+			<OptionDependency Lead="WORDFiles"/>
+			<OptionDependency Lead="XDOCSFiles"/>
+		</Option>
+		<Option Id="SHAREDFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+			<Option Id="CAGFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+				<Option Id="CAGCategoryFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes">
+					<Option Id="CAGCat10" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="no"/>
+					<Option Id="CAGOffice10" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="no"/>
+				</Option>
+			</Option>
+			<Option Id="ConvertersFiltersFile" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+				<Option Id="GraphicsFiltersFile" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+					<Option Id="GraphicsFiltersCGMFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+					<Option Id="GraphicsFiltersEPSFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+					<Option Id="GraphicsFiltersGIFFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+					<Option Id="GraphicsFiltersJPEGFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+					<Option Id="GraphicsFiltersPICTFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+					<Option Id="GraphicsFiltersPNGFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+					<Option Id="GraphicsFiltersWPGFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				</Option>
+				<Option Id="TextConverters" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+					<Option Id="TCRecoverFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+					<Option Id="TCWP5Files" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+					<Option Id="TCWP6Files" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				</Option>
+			</Option>
+			<Option Id="LOBiFilesIntl" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no" PreReq="NetFW35FULLONLY" Hidden="yes">
+				<OptionDependency Lead="LOBiFiles"/>
+			</Option>
+			<Option Id="OfficeDigitalSFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+			<Option Id="VBAFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+				<OptionDependency Lead="ACCESSFiles"/>
+				<OptionDependency Lead="OneNoteFiles"/>
+				<Option Id="VBAHelpFiles" DefaultState="FollowParent" DisallowAbsent="yes" DisallowAdvertise="no" Hidden="yes"/>
+			</Option>
+		</Option>
+		<Option Id="TOOLSFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+			<Option Id="EquationEditorFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+			<Option Id="GRAPHFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+				<Option Id="GraphHelpFiles" DefaultState="FollowParent" DisallowAbsent="yes" DisallowAdvertise="no" Hidden="yes"/>
+			</Option>
+			<Option Id="MSTagPluginsFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes">
+				<Option Id="MetricConverter" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes"/>
+				<Option Id="MSTagPluginDateFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes"/>
+				<Option Id="MSTagPluginNamesFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes"/>
+				<Option Id="MSTagPluginPlacesFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes"/>
+				<Option Id="MSTagPluginStockFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes"/>
+			</Option>
+			<Option Id="OISFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+			<Option Id="OSESupp" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes">
+				<Option Id="LISTFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes">
+					<OptionDependency Lead="ACCESSFiles"/>
+					<OptionDependency Lead="EXCELFiles"/>
+				</Option>
+			</Option>
+			<Option Id="QueryFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+			<Option Id="SetLanguageFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+				<Option Id="SetLanguageHelpFiles" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no" Hidden="yes"/>
+			</Option>
+			<Option Id="WebDriveFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+		</Option>
+		<Option Id="VisioPreviewerIntl" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes"/>
+		<Option Id="XDOCSEditorFiles" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="XDOCSFiles"/>
+			<OptionDependency Lead="EXCELFiles"/>
+			<OptionDependency Lead="GrooveFiles"/>
+			<OptionDependency Lead="PPTFiles"/>
+			<OptionDependency Lead="WORDFiles"/>
+			<OptionDependency Lead="WAC_SPD"/>
+		</Option>
+		<Option Id="WISPHidden" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="WISPFiles"/>
+			<OptionDependency Lead="EXCELFiles"/>
+			<OptionDependency Lead="OneNoteFiles"/>
+			<OptionDependency Lead="OUTLOOKFiles"/>
+			<OptionDependency Lead="PPTFiles"/>
+			<OptionDependency Lead="WORDFiles"/>
+			<OptionDependency Lead="XDOCSFiles"/>
+		</Option>
+	</Option>
+	<PackageRef Path="OfficeMUISet.xml"/>
+	<PackageRef Path="OfficeMUI.xml"/>
+	<LocalizationTransform Path="ShellUI.MST"/>
+	<LocalCache DownloadCode="{90140000-0115-0409-1000-0000000FF1CE}" SkuComponentDirectory="Office.en-us">
+		<File Id="OfficeMUISet.xml" MD5="1499526CBB2075B26718F2E137B6C2A8" Size="819" RelativeCachePath="OfficeMUISet.xml" RelativeSourcePath="OfficeMUISet.xml"/>
+		<File Id="OfficeMUISet.msi" MD5="4F1CA0FD1758854F77C7D9AAAE69BCEC" Size="868864" RelativeCachePath="OfficeMUISet.msi" RelativeSourcePath="OfficeMUISet.msi"/>
+		<File Id="OfficeMUI.xml" MD5="A0778A00344884FCC5D63092EBADB12F" Size="5557" RelativeCachePath="OfficeMUI.xml" RelativeSourcePath="OfficeMUI.xml"/>
+		<File Id="OfficeMUI.msi" MD5="2899C17F4BCF776A0DAE81EE7BBEA5B3" Size="3702272" RelativeCachePath="OfficeMUI.msi" RelativeSourcePath="OfficeMUI.msi"/>
+		<File Id="OfficeLR.cab" MD5="4D319495B352CF5E2C1CA3A0EDDDA9E0" Size="14127746" RelativeCachePath="OfficeLR.cab" RelativeSourcePath="OfficeLR.cab"/>
+		<File Id="branding.xml" MD5="10B211A922F7CA1A15B98F595A10A7BD" Size="596341" RelativeCachePath="branding.xml" RelativeSourcePath="branding.xml"/>
+		<File Id="ShellUI.MST" MD5="1D2075357200E9DE88813DCA07C99BE1" Size="3584" RelativeCachePath="ShellUI.MST" RelativeSourcePath="ShellUI.MST"/>
+		<File Id="DW20.EXE" MD5="A41E524F8D45F0074FD07805FF0C9B12" Size="838536" RelativeCachePath="DW20.EXE" RelativeSourcePath="DW20.EXE"/>
+		<File Id="dwdcw20.dll" MD5="C314B9DC9122111238CF81563F9CA60B" Size="526176" RelativeCachePath="dwdcw20.dll" RelativeSourcePath="dwdcw20.dll"/>
+		<File Id="dwtrig20.exe" MD5="C87E561258F2F8650CEF999BF643A731" Size="519584" RelativeCachePath="dwtrig20.exe" RelativeSourcePath="dwtrig20.exe"/>
+		<File Id="1033\dwintl20.dll" MD5="B71562EFEC7499BD5EB01643622119A4" Size="107912" RelativeCachePath="1033\dwintl20.dll" RelativeSourcePath="1033\dwintl20.dll"/>
+		<File Id="msvcr90.dll" MD5="4D03CA609E68F4C90CF66515218017F8" Size="655872" RelativeCachePath="msvcr90.dll" RelativeSourcePath="msvcr90.dll"/>
+		<File Id="Microsoft.VC90.CRT.manifest" MD5="C1EDA860810E6299F690459006E4C655" Size="1857" RelativeCachePath="Microsoft.VC90.CRT.manifest" RelativeSourcePath="Microsoft.VC90.CRT.manifest"/>
+		<File Id="osetupui.dll" MD5="8FB443844DDE0AD7D9C004BC92BB9993" Size="191872" RelativeCachePath="osetupui.dll" RelativeSourcePath="osetupui.dll"/>
+		<File Id="setup.chm" MD5="CB8F14C8B37BA69F361E33E30E8EBC74" Size="67190" RelativeCachePath="setup.chm" RelativeSourcePath="setup.chm"/>
+		<File Id="pss10r.chm" MD5="2E242BE71E5EF1CD59E330D20E3DCC8F" Size="27195" RelativeCachePath="pss10r.chm" RelativeSourcePath="pss10r.chm"/>
+		<File Id="Setup.xml" MD5="" Size="" RelativeCachePath="Setup.xml" RelativeSourcePath="Setup.xml"/>
+	</LocalCache>
+</Setup>

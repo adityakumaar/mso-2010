@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=HNLkyukCb/JRmsUEXr3/9OmXIPW0XQLxu/Ii592+X3tAOXmNfFwEUFQ84bxxv/Ypmvf8s6GCLrHYnel4XdiM9spUssJmKHOLtjO7uzSvhXzWcucJo2OPSfjj6hceeVE5LC8IBm0SU2aATDHOyaTUHAL/X0bzS3odtoJuuS2OCkM=-->
+<Setup Id="PowerPoint.en-us" Type="AddOn" Keyword="PowerPointMUI" Culture="en-us">
+	<Option Id="AlwaysInstalled" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="Gimme_OnDemandData" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="ProductFiles" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no">
+		<Option Id="PPTFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+			<Option Id="OrgChartFiles" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes"/>
+			<Option Id="PPTPresentationTemplates" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+				<OptionDependency Lead="PPTFiles"/>
+			</Option>
+			<Option Id="PPTHelpFiles" DefaultState="FollowParent" DisallowAbsent="yes" DisallowAdvertise="no" Hidden="yes"/>
+		</Option>
+	</Option>
+	<PackageRef Path="PowerPointMUI.xml"/>
+	<LocalCache DownloadCode="{90140000-0018-0409-1000-0000000FF1CE}" SkuComponentDirectory="PowerPoint.en-us">
+		<File Id="PowerPointMUI.xml" MD5="E514CF7C3B817C21B18B5FEDE2308843" Size="1450" RelativeCachePath="PowerPointMUI.xml" RelativeSourcePath="PowerPointMUI.xml"/>
+		<File Id="PowerPointMUI.msi" MD5="DA6E7263CAEBEA1B4A9ABEC15C44D49E" Size="2503680" RelativeCachePath="PowerPointMUI.msi" RelativeSourcePath="PowerPointMUI.msi"/>
+		<File Id="PptLR.cab" MD5="F94CFBEAE53AEF41999AE12658AB12D1" Size="70361744" RelativeCachePath="PptLR.cab" RelativeSourcePath="PptLR.cab"/>
+		<File Id="Setup.xml" MD5="" Size="" RelativeCachePath="Setup.xml" RelativeSourcePath="Setup.xml"/>
+	</LocalCache>
+</Setup>

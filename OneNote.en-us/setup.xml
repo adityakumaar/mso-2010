@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=s/Mf5LfWO62qtNV31ppkN4UyF3mhGSLbsOuEJGg+i5ycbEvD9kD+Ut2HgHmFjr2YbQxGbJpqRrkIAgbH5G0Yvm1mJ/x8WFc+RTbDVbaraYB1IfkcwuYYqhArn7Exe3doKlI4sRF3xVpM/v5oKgP+TS9umKtdw5x/GHjktUgjRlk=-->
+<Setup Id="OneNote.en-us" Type="AddOn" Keyword="OneNoteMUI" Culture="en-us">
+	<Option Id="AlwaysInstalled" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="Gimme_OnDemandData" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="ProductFiles" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no">
+		<Option Id="OneNoteFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+			<Option Id="OneNoteHelpFiles" DefaultState="FollowParent" DisallowAbsent="yes" DisallowAdvertise="no" Hidden="yes"/>
+			<Option Id="OneNoteToAddIns" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes">
+				<Option Id="OneNoteToIEAddin" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes"/>
+			</Option>
+		</Option>
+		<Option Id="OneNoteToLinkedNotesIntl" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="OneNoteFiles"/>
+		</Option>
+	</Option>
+	<PackageRef Path="OneNoteMUI.xml"/>
+	<LocalCache DownloadCode="{90140000-00A1-0409-1000-0000000FF1CE}" SkuComponentDirectory="OneNote.en-us">
+		<File Id="OneNoteMUI.xml" MD5="362961A99F4318E1BB332D2583D6CA78" Size="1606" RelativeCachePath="OneNoteMUI.xml" RelativeSourcePath="OneNoteMUI.xml"/>
+		<File Id="OneNoteMUI.msi" MD5="BB471663DA15E9E0EB6670B4A7D739E8" Size="2503680" RelativeCachePath="OneNoteMUI.msi" RelativeSourcePath="OneNoteMUI.msi"/>
+		<File Id="OnoteLR.cab" MD5="C701758284D6A69ADEAC82DFABFFB2F1" Size="17456632" RelativeCachePath="OnoteLR.cab" RelativeSourcePath="OnoteLR.cab"/>
+		<File Id="Setup.xml" MD5="" Size="" RelativeCachePath="Setup.xml" RelativeSourcePath="Setup.xml"/>
+	</LocalCache>
+</Setup>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=/THy0ThhZBF0/m6PuS95lWqZkTl9LfOjjYSxVLT0NUEfJmyzfBwEjqK/kloRxJIB9yPSVMHD9zY6tjThqrg7O+EvbQtVUoLQn0pgtNspmETBORmW7BFEIxjIs4BaDO1f6/zN8Bl0h2zm+lucH1283EjoR5Vgn4OjO+M2HIX6DSw=-->
+<Setup Id="Word.en-us" Type="AddOn" Keyword="WordMUI" Culture="en-us">
+	<Option Id="AlwaysInstalled" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="Gimme_OnDemandData" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="ProductFiles" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no">
+		<Option Id="WORDFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+			<Option Id="WordBibliographyFiles" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes"/>
+			<Option Id="WORDHelpFiles" DefaultState="FollowParent" DisallowAbsent="yes" DisallowAdvertise="no" Hidden="yes"/>
+			<Option Id="WordQuickFormatsFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+			<Option Id="WORDDocumentTemplates" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+				<OptionDependency Lead="WORDFiles"/>
+			</Option>
+		</Option>
+		<Option Id="WORDSharedFiles" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+			<OptionDependency Lead="OUTLOOKFiles"/>
+			<OptionDependency Lead="WORDFiles"/>
+		</Option>
+		<Option Id="WhiteRabbitHidden" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="WORDFiles"/>
+			<OptionDependency Lead="EXCELFiles"/>
+			<OptionDependency Lead="OUTLOOKFiles"/>
+		</Option>
+	</Option>
+	<PackageRef Path="WordMUI.xml"/>
+	<LocalCache DownloadCode="{90140000-001B-0409-1000-0000000FF1CE}" SkuComponentDirectory="Word.en-us">
+		<File Id="WordMUI.xml" MD5="CF4D61CCBF565F83E919F4BEF3F0E133" Size="1800" RelativeCachePath="WordMUI.xml" RelativeSourcePath="WordMUI.xml"/>
+		<File Id="WordMUI.msi" MD5="3BCFA28669AAE097BA09D95DB5AB1469" Size="2522624" RelativeCachePath="WordMUI.msi" RelativeSourcePath="WordMUI.msi"/>
+		<File Id="WordLR.cab" MD5="F7C1706C269771E80504F64FDCECC300" Size="43806141" RelativeCachePath="WordLR.cab" RelativeSourcePath="WordLR.cab"/>
+		<File Id="Setup.xml" MD5="" Size="" RelativeCachePath="Setup.xml" RelativeSourcePath="Setup.xml"/>
+	</LocalCache>
+</Setup>

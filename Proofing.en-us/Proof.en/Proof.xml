@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=pl79eP+6Ba2KVjKUbFmU6FMPeudjgXYXGQKIptEiE+MCLdow8/pOKN4NWMnmVxJIl4TNx02b43297jozmkThiIhnjoIV4hEbOFHaLlBEN1/2ZU0Qd+z9CfUxzGGGz0vs8L4CAX6YbDgn8zutVjMN5ThiVTtrfh4yR3YyKQfyjEo=-->
+<Package Id="Proof.en-us" Type="MSI" Path="Proof.MSI" Version="1.0" ProductCode="{90140000-001F-0409-1000-0000000FF1CE}" MSIVersion="14.0.4763.1000" Platform="x64">
+	<Feature Id="FindAllWordFormsFiles_1033" Cost="444027">
+		<OptionRef Id="FindAllWordFormsFiles_1033"/>
+	</Feature>
+	<Feature Id="Gimme_OnDemandData" Cost="0">
+		<OptionRef Id="Gimme_OnDemandData"/>
+	</Feature>
+	<Feature Id="SpellingAndGrammarFiles_1033" Cost="18466359">
+		<OptionRef Id="SpellingAndGrammarFiles_1033"/>
+	</Feature>
+	<Feature Id="ThesaurusFiles_1033" Cost="4705664">
+		<OptionRef Id="ThesaurusFiles_1033"/>
+	</Feature>
+	<Feature Id="MsoInstalledPackagesScopedIntl_1033" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="HyphenationFiles_1033" Cost="699272">
+		<OptionRef Id="HyphenationFiles_1033"/>
+	</Feature>
+	<Feature Id="OCR_1033" Cost="311852">
+		<OptionRef Id="OCR_1033"/>
+	</Feature>
+	<Feature Id="SetupControllerFiles" Cost="234">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="SetupXmlFiles" Cost="234">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+</Package>

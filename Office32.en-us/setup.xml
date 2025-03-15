@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=wKsEDhpMZGCaTbpC1X6BZW7X25KkJDcLzyg7WeTcoMyIpTDiWzDj6USOXY6vJ6pUjYQmeQFxiU+Jyf2+tDqZ6AeWvugKV/InH8WMP7OIL7DfPFbd0v3/Y/F+pNix7Hc8HRb+tdgQf2bQ0r0S3g+NoMkR3b3gYSF7upg9Fg3XzB4=-->
+<Setup Id="Office32.en-us" Type="AddOn" Keyword="Office32MUI" Culture="en-us">
+	<Option Id="AlwaysInstalled" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="Gimme_OnDemandData" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="ProductFiles" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no">
+		<Option Id="GrooveFiles32Intl" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="GrooveFiles"/>
+		</Option>
+		<Option Id="OneNoteToLinkedNotesIntl" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="OneNoteFiles"/>
+		</Option>
+		<Option Id="Outlook32SearchShellRegIntl" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="OUTLOOKFiles"/>
+		</Option>
+		<Option Id="TOOLSFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+			<Option Id="OSESupp" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes">
+				<Option Id="WebDiscussFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes">
+					<OptionDependency Lead="EXCELFiles"/>
+					<OptionDependency Lead="OneNoteFiles"/>
+					<OptionDependency Lead="WAC_SPD"/>
+				</Option>
+			</Option>
+		</Option>
+	</Option>
+	<PackageRef Path="Office32MUI.xml"/>
+	<LocalCache DownloadCode="{90140000-0043-0409-1000-0000000FF1CE}" SkuComponentDirectory="Office32.en-us">
+		<File Id="Office32MUI.xml" MD5="F74A9C18BD3532A04D1AFCCC7395EBB5" Size="1383" RelativeCachePath="Office32MUI.xml" RelativeSourcePath="Office32MUI.xml"/>
+		<File Id="Office32MUI.msi" MD5="21F735074C79F0B95186D9408FB43703" Size="873984" RelativeCachePath="Office32MUI.msi" RelativeSourcePath="Office32MUI.msi"/>
+		<File Id="OWOW32LR.cab" MD5="0009149F413BFCE101005774FD36989F" Size="2928955" RelativeCachePath="OWOW32LR.cab" RelativeSourcePath="OWOW32LR.cab"/>
+		<File Id="Setup.xml" MD5="" Size="" RelativeCachePath="Setup.xml" RelativeSourcePath="Setup.xml"/>
+	</LocalCache>
+</Setup>

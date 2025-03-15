@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=UMX9QyxQB79QNiraVQDHrT1RIUSXK1XRXuMwbZ0qIBiTKb43bVOorrMSRloI1OKZfWuOVgt1U9fkU3VJbq6PlLpZTCvVMwsmR72aKDeXdiIzfP1beYwXke29kVe4rWMLyaKT37VjecNozwNq0UCnFYEHEh9brlh4C0AyJQqe1mA=-->
+<Setup Id="Publisher.en-us" Type="AddOn" Keyword="PublisherMUI" Culture="en-us">
+	<Option Id="AlwaysInstalled" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="Gimme_OnDemandData" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="ProductFiles" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no">
+		<Option Id="PubPrimary" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+			<Option Id="PublisherHelpFiles" DefaultState="FollowParent" DisallowAbsent="yes" DisallowAdvertise="no" Hidden="yes"/>
+		</Option>
+	</Option>
+	<PackageRef Path="PublisherMUI.xml"/>
+	<LocalCache DownloadCode="{90140000-0019-0409-1000-0000000FF1CE}" SkuComponentDirectory="Publisher.en-us">
+		<File Id="PublisherMUI.xml" MD5="36AE1E211B5A2B4F979D749769415FE7" Size="1450" RelativeCachePath="PublisherMUI.xml" RelativeSourcePath="PublisherMUI.xml"/>
+		<File Id="PublisherMUI.msi" MD5="9C0D47E5B0CA5A5317685EAF66722530" Size="2513920" RelativeCachePath="PublisherMUI.msi" RelativeSourcePath="PublisherMUI.msi"/>
+		<File Id="PubLR.cab" MD5="6A89F66B2940B47C4678C98DA3E98EEB" Size="9958388" RelativeCachePath="PubLR.cab" RelativeSourcePath="PubLR.cab"/>
+		<File Id="Setup.xml" MD5="" Size="" RelativeCachePath="Setup.xml" RelativeSourcePath="Setup.xml"/>
+	</LocalCache>
+</Setup>

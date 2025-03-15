@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=jZ83ja0f7ASlle5ID4+V72m5Sbsi5WeKJTSGUw0MKAWnTYJ9QkwSZ3F08Ilfd7s1kWms1nbghDBUK2dOtafN5thb/DPZMQcmDZA0v6MLYM8aU39+0m3/3JEJsTTzyMqYX9Sw6HC3ExaLzsuVMFbZNbmEOBVjoH51HwpQpK2LOhs=-->
+<Setup Id="Proofing.en-us" Type="AddOn" Keyword="Proofing" Culture="en-us">
+	<Option Id="AlwaysInstalled" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="Gimme_OnDemandData" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="ProductFiles" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no">
+		<Option Id="SHAREDFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+			<Option Id="ProofingTools" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+				<Option Id="ProofingTools_1033" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+					<Option Id="FindAllWordFormsFiles_1033" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+					<Option Id="HyphenationFiles_1033" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+					<Option Id="OCR_1033" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no">
+						<OptionDependency Lead="DocumentImagingUtils"/>
+						<OptionDependency Lead="OneNoteFiles"/>
+					</Option>
+					<Option Id="SpellingAndGrammarFiles_1033" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="no">
+						<OptionDependency Lead="OUTLOOKFiles"/>
+					</Option>
+					<Option Id="ThesaurusFiles_1033" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				</Option>
+				<Option Id="ProofingTools_1036" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+					<Option Id="FindAllWordFormsFiles_1036" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+					<Option Id="HyphenationFiles_1036" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+					<Option Id="OCR_1036" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no">
+						<OptionDependency Lead="DocumentImagingUtils"/>
+						<OptionDependency Lead="OneNoteFiles"/>
+					</Option>
+					<Option Id="SpellingAndGrammarFiles_1036" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="no">
+						<OptionDependency Lead="OUTLOOKFiles"/>
+					</Option>
+					<Option Id="ThesaurusFiles_1036" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+					<Option Id="TranslationFiles_1036" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				</Option>
+				<Option Id="ProofingTools_3082" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+					<Option Id="FindAllWordFormsFiles_3082" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+					<Option Id="HyphenationFiles_3082" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+					<Option Id="OCR_3082" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no">
+						<OptionDependency Lead="DocumentImagingUtils"/>
+						<OptionDependency Lead="OneNoteFiles"/>
+					</Option>
+					<Option Id="SpellingAndGrammarFiles_3082" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="no">
+						<OptionDependency Lead="OUTLOOKFiles"/>
+					</Option>
+					<Option Id="ThesaurusFiles_3082" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+					<Option Id="TranslationFiles_3082" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				</Option>
+			</Option>
+		</Option>
+	</Option>
+	<PackageRef Path="Proofing.xml"/>
+	<PackageRef Path="Proof.en\Proof.xml" InstalledPath="..\Proof.en\Proof.xml"/>
+	<PackageRef Path="Proof.fr\Proof.xml" InstalledPath="..\Proof.fr\Proof.xml"/>
+	<PackageRef Path="Proof.es\Proof.xml" InstalledPath="..\Proof.es\Proof.xml"/>
+	<LocalCache DownloadCode="{90140000-002C-0409-1000-0000000FF1CE}" SkuComponentDirectory="Proofing.en-us">
+		<File Id="Proofing.xml" MD5="08A491B1B6EB1B5C6A8752D2D3A3BA94" Size="811" RelativeCachePath="Proofing.xml" RelativeSourcePath="Proofing.xml"/>
+		<File Id="Proofing.msi" MD5="2CE4F9BE86805D5AE85429477C174600" Size="868864" RelativeCachePath="Proofing.msi" RelativeSourcePath="Proofing.msi"/>
+		<File Id="Proof.en\Proof.xml" MD5="440E08E36D16B4C8EFC210A0A4636EE4" Size="1347" RelativeCachePath="Proof.en\Proof.xml" RelativeSourcePath="Proof.en\Proof.xml"/>
+		<File Id="Proof.en\Proof.msi" MD5="519C242ABF06D9F50D6D7950D4743557" Size="875520" RelativeCachePath="Proof.en\Proof.msi" RelativeSourcePath="Proof.en\Proof.msi"/>
+		<File Id="Proof.en\Proof.cab" MD5="B0719B8DF81E9FAFE3CCA5CF769E9D83" Size="11482605" RelativeCachePath="Proof.en\Proof.cab" RelativeSourcePath="Proof.en\Proof.cab"/>
+		<File Id="Proof.fr\Proof.xml" MD5="829836BE394BB8A48380977318709B98" Size="1458" RelativeCachePath="Proof.fr\Proof.xml" RelativeSourcePath="Proof.fr\Proof.xml"/>
+		<File Id="Proof.fr\Proof.msi" MD5="4BE40000CF9EF8DFA4F96446E5A3542C" Size="885760" RelativeCachePath="Proof.fr\Proof.msi" RelativeSourcePath="Proof.fr\Proof.msi"/>
+		<File Id="Proof.fr\Proof.cab" MD5="3241665E58E191065E9C37AF150E740A" Size="21064532" RelativeCachePath="Proof.fr\Proof.cab" RelativeSourcePath="Proof.fr\Proof.cab"/>
+		<File Id="Proof.es\Proof.xml" MD5="EE9E36C4C70204953FC3C59C15954BB6" Size="1457" RelativeCachePath="Proof.es\Proof.xml" RelativeSourcePath="Proof.es\Proof.xml"/>
+		<File Id="Proof.es\Proof.msi" MD5="6D8D8B74B01E4B3793AFB4F5B0050149" Size="881152" RelativeCachePath="Proof.es\Proof.msi" RelativeSourcePath="Proof.es\Proof.msi"/>
+		<File Id="Proof.es\Proof.cab" MD5="1B3C049975CFF9CE08EF9687B6BA1A29" Size="13642474" RelativeCachePath="Proof.es\Proof.cab" RelativeSourcePath="Proof.es\Proof.cab"/>
+		<File Id="Setup.xml" MD5="" Size="" RelativeCachePath="Setup.xml" RelativeSourcePath="Setup.xml"/>
+	</LocalCache>
+</Setup>

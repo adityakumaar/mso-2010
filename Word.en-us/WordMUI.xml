@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=Od7KjEUGsipKJA+n6n8nsQ4CVKwXgQ1US1yB/5VBHX6IBlKOQXQ0wRd7n1mv+zIyKXfSg2jefAdZK1GEx4b/cCte7KTED+kboaKbR2X5yFpWtXrVifv4GlLuDKDEZ0KP1ju8eupmX12Fgp6Sv7rOKuDzTy5WEuKI/S0+N9Bo44E=-->
+<Package Id="WordMUI.en-us" Type="MSI" Path="WordMUI.MSI" Version="1.0" ProductCode="{90140000-001B-0409-1000-0000000FF1CE}" MSIVersion="14.0.4763.1000" Platform="x64">
+	<Feature Id="WordDocumentPartsFilesIntl_1033" Cost="4187307">
+		<OptionRef Id="WORDFiles"/>
+	</Feature>
+	<Feature Id="WhiteRabbitHiddenIntl_1033" Cost="57344">
+		<OptionRef Id="WhiteRabbitHidden"/>
+	</Feature>
+	<Feature Id="Gimme_OnDemandData" Cost="0">
+		<OptionRef Id="Gimme_OnDemandData"/>
+	</Feature>
+	<Feature Id="WordBibliographyFilesIntl_1033" Cost="91618">
+		<OptionRef Id="WordBibliographyFiles"/>
+	</Feature>
+	<Feature Id="WORDNonBootFilesIntl_1033" Cost="39936">
+		<OptionRef Id="WORDFiles"/>
+	</Feature>
+	<Feature Id="WORDHelpFilesIntl_1033" Cost="12680929">
+		<OptionRef Id="WORDHelpFiles"/>
+	</Feature>
+	<Feature Id="WORDDocumentTemplatesIntl_1033" Cost="43908357">
+		<OptionRef Id="WORDDocumentTemplates"/>
+	</Feature>
+	<Feature Id="MsoInstalledPackagesScopedIntl_1033" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="WordQuickFormatsFilesIntl_1033" Cost="719762">
+		<OptionRef Id="WordQuickFormatsFiles"/>
+	</Feature>
+	<Feature Id="ExcelConverter12Intl_1033" Cost="3006336">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="SetupControllerFiles" Cost="468">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="SetupXmlFiles" Cost="468">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="WORDSharedFilesIntl_1033" Cost="1624664">
+		<OptionRef Id="WORDSharedFiles"/>
+	</Feature>
+</Package>

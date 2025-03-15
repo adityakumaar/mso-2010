@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=f4n+1nt3I9BMs8p0gTzd58zHCMNJIdmzZrCC4ZpJ4H4oNRqCZtBF797M0VLMpnmvKzSralEkntwlfgQhmj23iWOwL6Y6WA1reqkfLTaXwP+pWAC+P6q7EJQwddBL0Q2tAuYMbJn/u3vVV8q36rrc7dS7awQYQgYs+8e+Hj3etiE=-->
+<Package Id="Office32MUI.en-us" Type="MSI" Path="Office32MUI.MSI" Version="1.0" ProductCode="{90140000-0043-0409-1000-0000000FF1CE}" MSIVersion="14.0.4763.1000" Platform="x64">
+	<Feature Id="OneNoteToLinkedNotesIEAddin32Intl_1033" Cost="0">
+		<OptionRef Id="OneNoteToLinkedNotesIntl"/>
+	</Feature>
+	<Feature Id="Gimme_OnDemandData" Cost="0">
+		<OptionRef Id="Gimme_OnDemandData"/>
+	</Feature>
+	<Feature Id="WebDiscussFilesIntl_1033" Cost="740885">
+		<OptionRef Id="WebDiscussFiles"/>
+	</Feature>
+	<Feature Id="Outlook32SearchShellRegIntl_1033" Cost="591832">
+		<OptionRef Id="Outlook32SearchShellRegIntl"/>
+	</Feature>
+	<Feature Id="GrooveFiles32Intl_1033" Cost="8794464">
+		<OptionRef Id="GrooveFiles32Intl"/>
+	</Feature>
+	<Feature Id="ProductFilesIntl32_1033" Cost="3952120">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="MsoInstalledPackagesScopedIntl_1033" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="SetupControllerFiles" Cost="468">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="SetupXmlFiles" Cost="468">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+</Package>
